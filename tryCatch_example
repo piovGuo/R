@@ -48,3 +48,6 @@ for (i in 1:10){
   },error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
 }
 
+#inspired by
+#https://stackoverflow.com/questions/3903157/how-can-i-check-whether-a-function-call-results-in-a-warning
+#https://stackoverflow.com/questions/14748557/skipping-error-in-for-loop
